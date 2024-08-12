@@ -1,0 +1,85 @@
+{
+    "bikes": [
+      {
+        "id": 1,
+        "name": "Mountain Explorer",
+        "type": "Mountain",
+        "price": 1200,
+        "image_URL": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "nickname": "mtn"
+      },
+      {
+        "id": 2,
+        "name": "Urban Cruiser",
+        "type": "City",
+        "price": 900,
+        "image_URL": "https://plus.unsplash.com/premium_photo-1678718713393-2b88cde9605b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "nickname": "urc"
+      },
+      {
+        "id": 3,
+        "name": "Speed Demon",
+        "type": "Road",
+        "price": 1500,
+        "image_URL": "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?q=80&w=1422&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "nickname": "spd"
+      },
+      {
+        "id": 4,
+        "name": "Trail Blazer",
+        "type": "Mountain",
+        "price": 1300,
+        "image_URL": "https://images.unsplash.com/photo-1513540870164-07649a1d676f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "nickname": "trb"
+      },
+      {
+        "id": 5,
+        "name": "Commuter Pro",
+        "type": "City",
+        "price": 1000,
+        "image_URL": "https://images.unsplash.com/photo-1497893530937-eeb6d7fe1e7e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "nickname": "cmp"
+      },
+      {
+        "id": 6,
+        "name": "Desert Storm",
+        "type": "Fat Tire",
+        "price": 1400,
+        "image_URL": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/11/2020/03/carbonjack29-2020-antidotebikes-2-1300x867-1-600x400.jpg",
+        "nickname": "dst"
+      },
+      {
+        "id": 7,
+        "name": "Beach Cruiser",
+        "type": "Beach",
+        "price": 800,
+        "image_URL": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/11/2020/03/DSC3315-4-630x420.jpg",
+        "nickname": "bcs"
+      },
+      {
+        "id": 8,
+        "name": "Trail Master",
+        "type": "Mountain",
+        "price": 1100,
+        "image_URL": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/11/2020/03/carbonjack29-2020-antidotebikes-1-1280x853-1-630x420.jpg",
+        "nickname": "trm"
+      },
+      {
+        "id": 9,
+        "name": "City Flyer",
+        "type": "City",
+        "price": 950,
+        "image_URL": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/11/2021/07/mbr266.biketest2._rz63794-630x420.jpg",
+        "nickname": "clf"
+      },
+      {
+        "id": 10,
+        "name": "Race King",
+        "type": "Road",
+        "price": 1600,
+        "image_URL": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/11/2020/02/R854264-630x420.jpg",
+        "nickname": "RK"
+      }
+    ]
+  }
+  

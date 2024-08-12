@@ -1,25 +1,14 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import BikeCard from './BikeCard';
 
-const Cart = () => {
-  const navigate = useNavigate();
-  const cartItem = JSON.parse(localStorage.getItem('cart'));
-
-  if (!cartItem) return <div>Your cart is empty.</div>;
-
-  const handleProceedToPayment = () => {
-    navigate('/payment');
-  };
-
+function Cart(){
   return (
-    <div>
-      <h1>Your Cart</h1>
-      <p>Bike: {cartItem.name}</p>
-      <p>Duration: {cartItem.duration} hours</p>
-      <p>Total Price: ${cartItem.totalPrice}</p>
-      <button onClick={handleProceedToPayment}>Proceed to Payment</button>
+    <div className="ui segment inverted olive bot-army">
+    <div className="ui five column grid">
+      <div className="row bike-army-row">
+      </div>
     </div>
-  );
-};
-
+  </div>
+  )
+}
 export default Cart;

@@ -29,4 +29,262 @@ body {
   padding: 0;
 
 }
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links li {
+  padding: 5px 0;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #ff5733;
+}
+
+/* Responsive Menu */
+@media (max-width: 768px) {
+  .navbar-links {
+      display: none;
+  }
+  
+  .navbar {
+      justify-content: space-between;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?q=80&w=1422&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff5733;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #c74428;
+}
+
+.categories {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.categories h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.category-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.category {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.category img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.category h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer nav a:hover {
+  text-decoration: underline;
+}
+.bike-card {
+  background-color:whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.bike-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.bike-card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.bike-card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.bike-card-description {
+  font-size: 1rem;
+  color: #666;
+}
+.bike-card-button {
+  display: inline-block;
+    padding: 12px 20px;
+    font-size: 12px;
+    color: white;
+    background-color: #ff5733;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.bike-card-container {
+  background-color: white;
+}
+.payment-options {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.payment-options h2 {
+  margin-bottom: 20px;
+}
+
+.payment-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.payment-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.payment-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.payment-card.selected {
+  border: 2px solid #ff5733;
+}
+
+.payment-image {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.payment-summary {
+  margin-top: 20px;
+}
+
+
+
 

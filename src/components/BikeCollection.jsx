@@ -1,10 +1,13 @@
 import React from 'react';
+import BikeCard from './BikeCard';
 
-function BikeCollection () {
+function BikeCollection ({bikes}) {
   return (
     <div className="ui four column grid">
     <div className="row">
-      {/* Map bikes to be displayed here */}
+      {bikes.map(bike=> (
+        <BikeCard key={bike.id} bike={bike}/>
+      ))}
     </div>
   </div>
 );

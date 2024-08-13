@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 
 
 const paymentMethods = [
-  { id: 1, name: 'Visa', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvCh4Tcadq-f-WvsH7rXSGZgPKMZ826bo0Ew&s' },
-  { id: 2, name: 'MasterCard', image: 'mastercard.png' },
-  { id: 3, name: 'PayPal', image: 'paypal.png' },
-  { id: 4, name: 'Google Pay', image: 'google-pay.png' }
+  { id: 1, name: 'Visa', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-kIqA-9wBxUDDSp5W_P3xPIGxnTJJst3iMA&s' },
+  { id: 2, name: 'MasterCard', image: 'https://media.wired.com/photos/5926dea77034dc5f91bece36/master/w_1600%2Cc_limit/Mastercard3-1.jpg' },
+//   { id: 3, name: 'PayPal', image: 'paypal.png' },
+//   { id: 4, name: 'Google Pay', image: 'google-pay.png' }
 ];
 
 const PaymentOptions = () => {

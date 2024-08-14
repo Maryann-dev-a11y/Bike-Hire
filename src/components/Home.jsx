@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 // Rendering the homepage of the website
+
 const Home = () => {
   return (
     <div>

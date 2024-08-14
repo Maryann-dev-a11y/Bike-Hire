@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import RatingReview from "./RatingReview";
-function BikeCard({bike}) {
+function BikeCard({bike,userId,bikeId}) {
 const [rating, setRating] = useState(0)
   // Displaying the details of the bikes to the DOM
   return (
@@ -19,7 +19,7 @@ const [rating, setRating] = useState(0)
         <br /> 
         
     <a href="/payments" className="btn" >Rent Now</a>
-    <RatingReview rating={rating} setRating={setRating}/>
+    <RatingReview rating={rating} setRating={setRating} bikeId={bike.id} userId={userId}/>
   </div>
   
   </div>

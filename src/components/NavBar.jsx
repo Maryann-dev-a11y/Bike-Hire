@@ -28,7 +28,7 @@ const Navbar = () => {
       <ul className="navbar-links">
         <li><a href="/">Home</a></li>
         <li><a href="/bikes">Available Bikes</a></li>
-        <li><a href="/#contact">Bike specs</a></li>
+        <li><a href="/bike1">Bike specs</a></li>
         <li><a href="#about">About Us</a></li>
       </ul>
       <div className="mode-toggle">

@@ -1,12 +1,12 @@
 import React from 'react';
-
+// Rendering the homepage of the website
 const Home = () => {
   return (
     <div>
       <header className="hero">
         <div className="hero-content">
           <h1>Rent the Best Bikes in Town</h1>
-          <p>Explore the city with our high-quality bikes. Easy online booking and affordable prices.</p>
+          <p>Two wheels, endless possibilities. Cycling : where the journey is just as important as the destination. Feel the wind in your face and the freedom of the open road.</p>
           <a href="/bikes" className="btn">Browse Bikes</a>
         </div>
       </header>

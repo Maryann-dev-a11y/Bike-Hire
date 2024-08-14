@@ -7,10 +7,12 @@ import PaymentOptions from './Payment';
 
 function App() {
   return (
+    // Handling routing and navigation through the page 
     <Router>
     <div className='App'>
       <NavBar />
       <Routes>
+        {/* specifying path and element to render when the path matches the URL */}
         <Route path="/" element={<Home />} />
       </Routes>
       <Routes>
@@ -26,4 +28,3 @@ function App() {
 }
 
 export default App;
-

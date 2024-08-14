@@ -29,7 +29,9 @@ body {
   padding: 0;
 
 }
-/* Common Navbar Styles */
+
+/* Navbar Styling */
+
 .navbar {
   position: sticky;
   top: 0;
@@ -41,7 +43,7 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Light Mode Styles */
+
 .navbar.light {
   background-color: #ffffff;
   color: #333333;
@@ -56,7 +58,7 @@ body {
   color: #ffffff;
 }
 
-/* Dark Mode Styles */
+
 .navbar.dark {
   background-color: #333333;
   color: #ffffff;
@@ -71,7 +73,7 @@ body {
   color: #333333;
 }
 
-/* Other Navbar Elements */
+
 .navbar-logo a {
   text-decoration: none;
   font-size: 1.5rem;
@@ -369,3 +371,72 @@ body {
   text-decoration: none;
   transition: background-color 0.3s, transform 0.2s;
 }
+.bike-specs {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.bike-specs-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.bike-specs h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.bike-specs p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.bike-specs ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.bike-specs ul li {
+  font-size: 1rem;
+  padding: 5px 0;
+}
+
+.back-button {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #c74428;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+

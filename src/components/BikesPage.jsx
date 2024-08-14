@@ -1,19 +1,23 @@
 import React,{useEffect,useState} from "react";
-import Cart from "./Cart"
+
 import BikeCollection from "./BikeCollection";
+import BikeSpecs from "./BikeSpecs";
 
 function BikesPage(){
     const [bikes,setBikes] = useState([])
+    // Fetching the bikes data from the server
     useEffect(()=>{
         fetch("http://localhost:8001/bikes")
         .then((res) => res.json())
         .then((data)=> setBikes(data))
+        // when the component mounts(due to the empty array), fetch the bikes data and set it to the bikes state variable
     },[])
 
     return (
         <div>
-            <Cart />
-            <BikeCollection bikes={bikes}/>
+            {/*Rendering the BikeCollection component with the bikes data as props */}
+        <BikeCollection bikes={bikes}/>
+        <BikeSpecs bikes={bikes}/>
         </div>
     )
 }

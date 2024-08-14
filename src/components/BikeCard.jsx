@@ -1,6 +1,7 @@
-import React from "react";
-
+import React, { useState } from "react";
+import RatingReview from "./RatingReview";
 function BikeCard({bike}) {
+const [rating, setRating] = useState(0)
   // Displaying the details of the bikes to the DOM
   return (
     <div className="bike-card-container">
@@ -16,8 +17,11 @@ function BikeCard({bike}) {
     <br/>
         <b className="bike-card-description"> WheelSize: {bike.wheelSize}</b>
         <br /> 
+        
     <a href="/payments" className="btn" >Rent Now</a>
+    <RatingReview rating={rating} setRating={setRating}/>
   </div>
+  
   </div>
 );
 };

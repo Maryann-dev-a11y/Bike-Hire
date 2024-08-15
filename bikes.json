@@ -1,7 +1,7 @@
 {
   "bikes": [
     {
-      "id": 1,
+      "id": "1",
       "name": "MOUNTAIN EXPLORER",
       "type": "Mountain",
       "price": 1200,
@@ -12,7 +12,7 @@
       "model": "Yamaha"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "URBAN CRUISER",
       "type": "City",
       "price": 900,
@@ -23,7 +23,7 @@
       "model": "Bianchi"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "SPEED RACER",
       "type": "Road",
       "price": 1500,
@@ -34,7 +34,7 @@
       "model": "Bianchi"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "TRAILBLAZER",
       "type": "Mountain",
       "price": 1300,
@@ -45,7 +45,7 @@
       "model": "Bianchi"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "CITY FLYER",
       "type": "City",
       "price": 1000,
@@ -56,7 +56,7 @@
       "model": "Bianchi"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "DUAL SCOOTER",
       "type": "Fat Tire",
       "price": 1400,
@@ -67,10 +67,11 @@
       "model": "Bianchi"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "BEACH CRUISER",
       "type": "Beach",
       "price": 800,
+      "description": "Suitable for beginners.",
       "image_url": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/11/2020/03/DSC3315-4-630x420.jpg",
       "nickname": "bch",
       "frameSize": "27.5",
@@ -78,7 +79,7 @@
       "model": "Bianchi"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "TRAIL RACER",
       "type": "Mountain",
       "price": 1100,
@@ -89,7 +90,7 @@
       "model": "Bianchi"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "CITY RACER",
       "type": "City",
       "price": 950,
@@ -100,7 +101,7 @@
       "model": "Bianchi"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "ROAD RACER",
       "type": "Road",
       "price": 1050,
@@ -109,53 +110,95 @@
       "frameSize": "27.5",
       "wheelSize": "29",
       "model": "Bianchi"
-    }
-  ],
+    },
+      {
+        "id": "11",
+        "name": "MOUNTAIN BIKE",
+        "type": "Mountain",
+        "price": 1200,
+        "description": "Ideal for rugged terrains.",
+        "image_url": "https://cdn.pixabay.com/photo/2013/07/13/13/46/bicycle-161524_640.png",
+        "nickname": "mnt",
+        "frameSize": "29",
+        "wheelSize": "27.5",
+        "model": "Trek"
+      },
+      {
+        "id": "12",
+        "name": "VENOM BIKE",
+        "type": "Road",
+        "price": 1500,
+        "description": "Perfect for long-distance rides.",
+        "image_url": "https://c4.wallpaperflare.com/wallpaper/962/822/424/technics-bicycle-wheeled-vehicle-vehicle-wallpaper-preview.jpg",
+        "nickname": "rd",
+        "frameSize": "56",
+        "wheelSize": "28",
+        "model": "Specialized"
+      },
+      {
+        "id": "13",
+        "name": "HYBRID COMMUTER",
+        "type": "Hybrid",
+        "price": 1000,
+        "description": "Great for city commutes and leisure rides.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShsiCBLKGBRf7W1tFyPB6kg6HKu_QVphZgKw&s",
+        "nickname": "hyb",
+        "frameSize": "54",
+        "wheelSize": "28",
+        "model": "Giant"
+      },
+      {
+        "id": "14",
+        "name": "BMX STUNT",
+        "type": "BMX",
+        "price": 700,
+        "description": "Designed for tricks and stunts.",
+        "image_url": "https://c4.wallpaperflare.com/wallpaper/167/290/385/sport-audi-grey-background-bicycling-wallpaper-preview.jpg",
+        "nickname": "bmx",
+        "frameSize": "20",
+        "wheelSize": "20",
+        "model": "Haro"
+      },
+      {
+        "id": "15",
+        "name": "GRAVEL GRINDER",
+        "type": "Gravel",
+        "price": 1350,
+        "description": "Built for off-road and mixed terrains.",
+        "image_url": "https://i.pinimg.com/736x/7e/73/24/7e732423abf22b9a42c62e7e7de794dd.jpg",
+        "nickname": "grv",
+        "frameSize": "58",
+        "wheelSize": "29",
+        "model": "Cannondale"
+      },
+      {
+        "id": "16",
+        "name": "ELECTRIC ASSIST",
+        "type": "Electric",
+        "price": 2000,
+        "description": "Assisted pedaling for easier rides.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzDTfZicGmc-i5g7x2nJjQAmX6yQ2Dhl4zYg&s",
+        "nickname": "e-bike",
+        "frameSize": "50",
+        "wheelSize": "27.5",
+        "model": "Riese & Müller"
+      }
+    ],
   "ratings": [
     {
-      "id": 1,
+      "id": "1",
       "user": "User1",
       "rating": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "user": "User2",
       "rating": 5
     },
     {
-      "bikeId": 1,
+      "bikeId": "2",
       "rating": 1,
-      "id": "a041"
-    },
-    {
-      "bikeId": 2,
-      "rating": 1,
-      "id": "01ff"
-    },
-    {
-      "bikeId": 3,
-      "rating": 1,
-      "id": "3ae1"
-    },
-    {
-      "bikeId": 7,
-      "rating": 1,
-      "id": "57f5"
-    },
-    {
-      "id": "f586",
-      "bikeId": 8,
-      "rating": 1
-    },
-    {
-      "bikeId": 4,
-      "rating": 1,
-      "id": "2e54"
-    },
-    {
-      "id": "cc3a",
-      "bikeId": 5,
-      "rating": 4
+      "id": "089a"
     }
   ]
 }

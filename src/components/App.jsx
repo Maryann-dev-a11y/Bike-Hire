@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import BikesPage from './BikesPage';
 import PaymentOptions from './Payment';
 import Login from './Login';
+import BikeDetails from './BikeDetails';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -31,10 +32,11 @@ function App() {
       <div className='App'>
         <NavBar isLoggedIn={isLoggedIn} handleLogout={handleLogout} />
         <Routes>
+        <Route path="/login" element={<Login handleLogin={handleLogin} />} />
           <Route path="/" element={<Home />} />
           <Route path="/bikes" element={<BikesPage />} />
           <Route path="/payments" element={<PaymentOptions />} />
-          <Route path="/login" element={<Login handleLogin={handleLogin} />} />
+          <Route path="/bike/:id" element={<BikeDetails/>} />
         </Routes>
       </div>
     </Router>

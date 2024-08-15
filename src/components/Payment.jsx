@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { useNavigate } from 'react-router-dom';
+
 
 // Creating dummy data for payment methods
 const paymentMethods = [
@@ -29,14 +33,28 @@ const PaymentOptions = () => {
       [name]: value
     }));
   };
+  const navigate = useNavigate();
+
 // Displaying an alert when booking is confirmed
-  const handleBooking = () => {
-    alert(`Booking confirmed for ${duration} hours at ${location} using ${selectedMethod}.`);
-  };
+ const notify = () => {
+  toast.success(`Booking confirmed for ${duration} hours at ${location} using ${selectedMethod}.`, {
+    position: "top-center",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "dark",
+    onClose: () => navigate('/bikes'),
+  });
+}
+
 
   return (
     
     <div className="payment-options">
+      
       <h2>Select Your Payment Method</h2>
       
       <div className="booking-details">
@@ -117,7 +135,20 @@ const PaymentOptions = () => {
             </>
           )}
           {/* Display a proceed to payment button, which triggers the handleBooking function when clicked */}
-          <button className="button" onClick={handleBooking}>Proceed to Payment</button>
+          <button className="btn" onClick={() => notify()}>Proceed to Payment</button>
+          <ToastContainer 
+              position="top-center"
+              autoClose={5000}
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover
+              theme="dark"
+            />
+         
         </div>
       )}
     </div>

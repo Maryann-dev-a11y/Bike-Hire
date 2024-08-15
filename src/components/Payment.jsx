@@ -35,6 +35,7 @@ const PaymentOptions = () => {
   };
 
   return (
+    
     <div className="payment-options">
       <h2>Select Your Payment Method</h2>
       

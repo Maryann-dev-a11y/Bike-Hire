@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 // Rendering the homepage of the website
 
 const Home = () => {

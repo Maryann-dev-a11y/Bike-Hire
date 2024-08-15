@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { FaHome } from "react-icons/fa";
+import { CiLogin,CiLogout } from "react-icons/ci";
+import { GiDutchBike } from "react-icons/gi";
 
 const Navbar = ({ isLoggedIn, handleLogout }) => {
   const [darkMode, setDarkMode] = useState(false);
@@ -12,10 +15,7 @@ const Navbar = ({ isLoggedIn, handleLogout }) => {
     }
   }, []);
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    localStorage.setItem('darkMode', !darkMode);
-  };
+
 
   return (
     <nav className={`navbar ${darkMode ? 'dark' : 'light'}`}>
@@ -24,21 +24,17 @@ const Navbar = ({ isLoggedIn, handleLogout }) => {
         <p>For whenever you're wheely-tired</p>
       </div>
       <ul className="navbar-links">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/bikes">Available Bikes</Link></li>
+        <li><Link to="/"><FaHome /></Link></li>
+        <li><Link to="/bikes"><GiDutchBike /></Link></li>
         {isLoggedIn ? (
           <li>
-            <button onClick={handleLogout} className="button-link">Logout</button>
+            <button onClick={handleLogout} className="button-link"><CiLogout /></button>
           </li>
         ) : (
-          <li><Link to="/login">Login</Link></li>
+          <li><Link to="/login"><CiLogin /></Link></li>
         )}
       </ul>
-      <div className="mode-toggle">
-        <button onClick={toggleDarkMode} className="button">
-          {darkMode ? 'Light Mode' : 'Dark Mode'}
-        </button>
-      </div>
+
     </nav>
   );
 };

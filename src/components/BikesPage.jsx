@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from "react";
 
 import BikeCollection from "./BikeCollection";
-import BikeSpecs from "./BikeSpecs";
+
 
 function BikesPage(){
     const [bikes,setBikes] = useState([])
@@ -17,7 +17,6 @@ function BikesPage(){
         <div>
             {/*Rendering the BikeCollection component with the bikes data as props */}
         <BikeCollection bikes={bikes}/>
-        <BikeSpecs bikes={bikes}/>
         </div>
     )
 }

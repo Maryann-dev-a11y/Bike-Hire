@@ -1,116 +1,161 @@
 {
-    "bikes": [
-      {
-        "id": 1,
-        "name": "MOUNTAIN EXPLORER",
-        "type": "Mountain",
-        "price": 1200,
-        "image_url": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "nickname": "mte",
-        "frameSize": "27.5",
-        "wheelSize": "29",
-        "model": "Yamaha"
-
-          },
-      {
-        "id": 2,
-        "name": "URBAN CRUISER",
-        "type": "City",
-        "price": 900,
-        "image_url": "https://plus.unsplash.com/premium_photo-1678718713393-2b88cde9605b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "nickname": "urb", 
-        "frameSize": "27.5",
-        "wheelSize": "29",
-        "model": "Bianchi"
-      },
-      {
-        "id": 3,
-        "name": "SPEED RACER",
-        "type": "Road",
-        "price": 1500,
-        "image_url": "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?q=80&w=1422&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "nickname": "srd",
-         "frameSize": "27.5",
-        "wheelSize": "29",
-        "model": "Bianchi"
-      },
-      {
-        "id": 4,
-        "name": "TRAILBLAZER",
-        "type": "Mountain",
-        "price": 1300,
-        "image_url": "https://images.unsplash.com/photo-1513540870164-07649a1d676f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "nickname": "trl",
-         "frameSize": "27.5",
-        "wheelSize": "29",
-        "model": "Bianchi"
-      },
-      {
-        "id": 5,
-        "name": "CITY FLYER",
-        "type": "City",
-        "price": 1000,
-        "image_url": "https://images.unsplash.com/photo-1497893530937-eeb6d7fe1e7e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "nickname": "ctf",
-         "frameSize": "27.5",
-        "wheelSize": "29",
-        "model": "Bianchi"
-      },
-      {
-        "id": 6,
-        "name": "DUAL SCOOTER",
-        "type": "Fat Tire",
-        "price": 1400,
-        "image_url": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/11/2020/03/carbonjack29-2020-antidotebikes-2-1300x867-1-600x400.jpg",
-        "nickname": "dsc",
-         "frameSize": "27.5",
-        "wheelSize": "29",
-        "model": "Bianchi"
-      },
-      {
-        "id": 7,
-        "name": "BEACH CRUISER",
-        "type": "Beach",
-        "price": 800,
-        "image_url": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/11/2020/03/DSC3315-4-630x420.jpg",
-        "nickname": "bch",
-         "frameSize": "27.5",
-        "wheelSize": "29",
-        "model": "Bianchi"
-      },
-      {
-        "id": 8,
-        "name": "TRAIL RACER",
-        "type": "Mountain",
-        "price": 1100,
-        "image_url": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/11/2020/03/carbonjack29-2020-antidotebikes-1-1280x853-1-630x420.jpg",
-        "nickname": "trc",
-         "frameSize": "27.5",
-        "wheelSize": "29",
-        "model": "Bianchi"
-      },
-      {
-        "id": 9,
-        "name": "CITY RACER",
-        "type": "City",
-        "price": 950,
-        "image_url": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/11/2021/07/mbr266.biketest2._rz63794-630x420.jpg",
-        "nickname": "cty",
-         "frameSize": "27.5",
-        "wheelSize": "29",
-        "model": "Bianchi"
-      },
-      {
-        "id": 10,
-        "name": "ROAD RACER",
-        "type": "Road",
-        "price": 1050,
-        "image_url": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/11/2020/02/R854264-630x420.jpg",
-        "nickname": "rdc",
-         "frameSize": "27.5",
-        "wheelSize": "29",
-        "model": "Bianchi"
-      }
-    ]
-  }
-  
+  "bikes": [
+    {
+      "id": 1,
+      "name": "MOUNTAIN EXPLORER",
+      "type": "Mountain",
+      "price": 1200,
+      "image_url": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "nickname": "mte",
+      "frameSize": "27.5",
+      "wheelSize": "29",
+      "model": "Yamaha"
+    },
+    {
+      "id": 2,
+      "name": "URBAN CRUISER",
+      "type": "City",
+      "price": 900,
+      "image_url": "https://plus.unsplash.com/premium_photo-1678718713393-2b88cde9605b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "nickname": "urb",
+      "frameSize": "27.5",
+      "wheelSize": "29",
+      "model": "Bianchi"
+    },
+    {
+      "id": 3,
+      "name": "SPEED RACER",
+      "type": "Road",
+      "price": 1500,
+      "image_url": "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?q=80&w=1422&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "nickname": "srd",
+      "frameSize": "27.5",
+      "wheelSize": "29",
+      "model": "Bianchi"
+    },
+    {
+      "id": 4,
+      "name": "TRAILBLAZER",
+      "type": "Mountain",
+      "price": 1300,
+      "image_url": "https://images.unsplash.com/photo-1513540870164-07649a1d676f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "nickname": "trl",
+      "frameSize": "27.5",
+      "wheelSize": "29",
+      "model": "Bianchi"
+    },
+    {
+      "id": 5,
+      "name": "CITY FLYER",
+      "type": "City",
+      "price": 1000,
+      "image_url": "https://images.unsplash.com/photo-1497893530937-eeb6d7fe1e7e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "nickname": "ctf",
+      "frameSize": "27.5",
+      "wheelSize": "29",
+      "model": "Bianchi"
+    },
+    {
+      "id": 6,
+      "name": "DUAL SCOOTER",
+      "type": "Fat Tire",
+      "price": 1400,
+      "image_url": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/11/2020/03/carbonjack29-2020-antidotebikes-2-1300x867-1-600x400.jpg",
+      "nickname": "dsc",
+      "frameSize": "27.5",
+      "wheelSize": "29",
+      "model": "Bianchi"
+    },
+    {
+      "id": 7,
+      "name": "BEACH CRUISER",
+      "type": "Beach",
+      "price": 800,
+      "image_url": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/11/2020/03/DSC3315-4-630x420.jpg",
+      "nickname": "bch",
+      "frameSize": "27.5",
+      "wheelSize": "29",
+      "model": "Bianchi"
+    },
+    {
+      "id": 8,
+      "name": "TRAIL RACER",
+      "type": "Mountain",
+      "price": 1100,
+      "image_url": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/11/2020/03/carbonjack29-2020-antidotebikes-1-1280x853-1-630x420.jpg",
+      "nickname": "trc",
+      "frameSize": "27.5",
+      "wheelSize": "29",
+      "model": "Bianchi"
+    },
+    {
+      "id": 9,
+      "name": "CITY RACER",
+      "type": "City",
+      "price": 950,
+      "image_url": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/11/2021/07/mbr266.biketest2._rz63794-630x420.jpg",
+      "nickname": "cty",
+      "frameSize": "27.5",
+      "wheelSize": "29",
+      "model": "Bianchi"
+    },
+    {
+      "id": 10,
+      "name": "ROAD RACER",
+      "type": "Road",
+      "price": 1050,
+      "image_url": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/11/2020/02/R854264-630x420.jpg",
+      "nickname": "rdc",
+      "frameSize": "27.5",
+      "wheelSize": "29",
+      "model": "Bianchi"
+    }
+  ],
+  "ratings": [
+    {
+      "id": 1,
+      "user": "User1",
+      "rating": 1
+    },
+    {
+      "id": 2,
+      "user": "User2",
+      "rating": 5
+    },
+    {
+      "bikeId": 1,
+      "rating": 1,
+      "id": "a041"
+    },
+    {
+      "bikeId": 2,
+      "rating": 1,
+      "id": "01ff"
+    },
+    {
+      "bikeId": 3,
+      "rating": 1,
+      "id": "3ae1"
+    },
+    {
+      "bikeId": 7,
+      "rating": 1,
+      "id": "57f5"
+    },
+    {
+      "id": "f586",
+      "bikeId": 8,
+      "rating": 1
+    },
+    {
+      "bikeId": 4,
+      "rating": 1,
+      "id": "2e54"
+    },
+    {
+      "id": "cc3a",
+      "bikeId": 5,
+      "rating": 4
+    }
+  ]
+}

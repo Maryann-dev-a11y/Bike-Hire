@@ -7,7 +7,7 @@ function RatingReview({ bikeId, userId }) {
     // Fetch the rating for the specific bike from the db.json server
     const fetchRating = async () => {
       try {
-        const response = await fetch(`http://localhost:8001/ratings?user=${userId}&bikeId=${bikeId}`);
+        const response = await fetch(`https://json-server-vercel-lemon-nu.vercel.app/ratings?user=${userId}&bikeId=${bikeId}`);
         const data = await response.json();
 
         if (data.length > 0) {
@@ -33,12 +33,12 @@ function RatingReview({ bikeId, userId }) {
 
     // Update the rating for the specific bike in the db.json server
     try {
-      const response = await fetch(`http://localhost:8001/ratings?user=${userId}&bikeId=${bikeId}`);
+      const response = await fetch(`https://json-server-vercel-lemon-nu.vercel.app/ratings?user=${userId}&bikeId=${bikeId}`);
       const data = await response.json();
 
       if (data.length > 0) {
         // Update existing rating
-        await fetch(`http://localhost:8001/ratings/${data[0].id}`, {
+        await fetch(`https://json-server-vercel-lemon-nu.vercel.app/ratings/${data[0].id}`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
@@ -47,7 +47,7 @@ function RatingReview({ bikeId, userId }) {
         });
       } else {
         // Create a new rating entry
-        await fetch(`http://localhost:8001/ratings`, {
+        await fetch(`https://json-server-vercel-lemon-nu.vercel.app/ratings`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

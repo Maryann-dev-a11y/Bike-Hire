@@ -7,7 +7,7 @@ function BikesPage(){
     const [bikes,setBikes] = useState([])
     // Fetching the bikes data from the server
     useEffect(()=>{
-        fetch("http://localhost:8001/bikes")
+        fetch("https://json-server-vercel-lemon-nu.vercel.app/bikes")
         .then((res) => res.json())
         .then((data)=> setBikes(data))
         // when the component mounts(due to the empty array), fetch the bikes data and set it to the bikes state variable

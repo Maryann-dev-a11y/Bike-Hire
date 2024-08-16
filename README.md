@@ -1,5 +1,8 @@
 # TWO-TIRED RENTALS
 
+# Link to our deployed projec
+https://bike-hire-theta.vercel.app/
+
 # Description
 Welcome to Two-tired Rentals, your ultimate destination for bike rentals!.This application allows users interested in bikes to browse through a list of bikes available for rent.
 
